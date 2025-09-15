@@ -136,7 +136,7 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__CustomAppB</application>
+        <application>standard__CustomAppA</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
