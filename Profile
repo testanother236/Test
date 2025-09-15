@@ -140,6 +140,11 @@
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
+  <applicationVisibilities>
+        <application>standard__Content1TEST</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
