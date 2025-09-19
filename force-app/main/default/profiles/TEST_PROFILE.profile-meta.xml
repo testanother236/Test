@@ -727,7 +727,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>AuthorizationFormText.DetailAuthorizationFormText</field>
         <readable>false</readable>
     </fieldPermissions>
