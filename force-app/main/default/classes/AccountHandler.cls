@@ -1,12 +1,11 @@
 /**
- * Handler class for Account operations.
+ * @description Handler class for Account operations.
  */
 public with sharing class AccountHandler {
 
     /**
-     * Updates the Account name by Id.
-     * INTENTIONAL MINOR: Does not check CRUD permissions (1 minor).
-     *
+     * @description Updates the Account name by Id.
+     * INTENTIONAL MINOR: Does not check CRUD permissions.
      * @param accountId The Id of the Account to update.
      * @param newName The new name for the Account.
      */
@@ -17,6 +16,3 @@ public with sharing class AccountHandler {
         update acc; // triggers 1 minor ApexCRUDViolation
     }
 }
-
-
-
