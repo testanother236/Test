@@ -1,4 +1,4 @@
-public with sharing class MegaTestClassNoModuloaaaaaaaaaaaaaasdd4er34#Q#%#%TGrgdfgdfgdfgdfgdf {
+public with sharing class MegaTestClassNoModuloaaaaaaaaaaaaaasddTGrgdfgdfgdfgdfgdf {
     // MINOR: intentionally missing class-level ApexDoc
 
     public static void hugeMethodOne() {
