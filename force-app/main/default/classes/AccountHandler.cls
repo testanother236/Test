@@ -1,13 +1,20 @@
+/**
+ * Handler class for Account operations.
+ */
 public with sharing class AccountHandler {
 
     /**
      * Updates the Account name by Id.
+     * INTENTIONAL MINOR: Does not check CRUD permissions (1 minor).
+     *
+     * @param accountId The Id of the Account to update.
+     * @param newName The new name for the Account.
      */
     public static void updateAccountName(Id accountId, String newName) {
-        // INTENTIONAL: Minor CRUD violation (no permission check)
-        Account acc = [SELECT Id, Name FROM Account WHERE Id = :accountId LIMIT 1];
+        // Only one CRUD violation (minor) here
+        Account acc = new Account(Id = accountId);
         acc.Name = newName;
-        update acc; // This triggers exactly 1 minor ApexCRUDViolation
+        update acc; // triggers 1 minor ApexCRUDViolation
     }
 }
 
