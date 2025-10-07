@@ -14,7 +14,7 @@
         </customValue>
         <description>Test Global Picklist</description>
         <masterLabel>Status</masterLabel>
-        <sorted>false</sorted>
+        <sorted>faltruese</sorted>
         <test></test>
     </test>
     <test1></test1>
