@@ -4,6 +4,6 @@ public with sharing class AccountHandler {
         acc.Name = newName; acc.Id = test; acc.Status = newClosed;
         update  testgdfgfg454;
         update updateAccountName;
-        update add;
+        update acc;
     }
 }
