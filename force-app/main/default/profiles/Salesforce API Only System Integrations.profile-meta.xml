@@ -16,11 +16,6 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__Audience360</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__Chatter</application>
         <default>false</default>
         <visible>true</visible>
@@ -136,19 +131,7 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>AccountHandler</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountHandlerTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountTriggerTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>MegaTestClassNoModulo</apexClass>
+        <apexClass>BatchCreateAccounts</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
@@ -4434,12 +4417,6 @@
         <layout>LegalEntity-Legal Entity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>LiveChatTranscriptActive-Chat Transcript %28In Progress%29 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>LiveChatTranscriptWaiting-Chat Transcript %28Waiting%29 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Location-Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4671,14 +4648,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ActivationTarget</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-AgentforceStudio</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-AlternativePaymentMethod</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -4779,10 +4748,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-CdpDataManager</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-ChangeRequest</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -4875,23 +4840,11 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-DataAction</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataActionTarget</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataCustomCode</tab>
+        <tab>standard-DataDetect</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DataGraph</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataLakeObjectInstance</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4911,23 +4864,7 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-DataModel</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-DataQueryWorkspace</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataSemanticSearch</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataSpace</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataStream</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -4937,10 +4874,6 @@
     <tabVisibilities>
         <tab>standard-DataUsePurpose</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DataView</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DealIndirectPartner</tab>
@@ -4975,10 +4908,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-EinsteinStudio</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-EnablementMeasureDefinition</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -4995,6 +4924,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-EventMonitoring</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-ExpressionSet</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -5003,11 +4936,7 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-ExtDataShare</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ExtDataShareTarget</tab>
+        <tab>standard-FieldAuditTrail</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -5065,10 +4994,6 @@
     <tabVisibilities>
         <tab>standard-IdentityDocument</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-IdentityResolution</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Image</tab>
@@ -5163,31 +5088,11 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-MarketSegment</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-MarketSegmentActivation</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-MergeRequest</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Metric</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-MktCalculatedInsight</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-MktDataTransform</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-MlWorkspace</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -5197,10 +5102,6 @@
     <tabVisibilities>
         <tab>standard-Monitor</tab>
         <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-OmniSupervisor</tab>
-        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-OperatingHours</tab>
@@ -5243,6 +5144,18 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-PaymentCredit</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PaymentCreditLinePayment</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PaymentCreditTransaction</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-PaymentGateway</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -5261,6 +5174,10 @@
     <tabVisibilities>
         <tab>standard-PersonEmployment</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PlatformEncryption</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-PriceProtectExecLineItem</tab>
@@ -5317,10 +5234,6 @@
     <tabVisibilities>
         <tab>standard-ProductionBatch</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-ProfileExplorer</tab>
-        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ProfilePlatformCoaching</tab>
@@ -5419,6 +5332,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-ShieldHome</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Shift</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -5452,10 +5369,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-TestThreatDetectionEvent</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-UnstructuredData</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

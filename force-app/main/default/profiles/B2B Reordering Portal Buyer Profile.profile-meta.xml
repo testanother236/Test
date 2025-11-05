@@ -16,11 +16,6 @@
         <visible>true</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__Audience360</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <applicationVisibilities>
         <application>standard__Chatter</application>
         <default>false</default>
         <visible>true</visible>
@@ -136,19 +131,7 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
-        <apexClass>AccountHandler</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountHandlerTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>AccountTriggerTest</apexClass>
-        <enabled>false</enabled>
-    </classAccesses>
-    <classAccesses>
-        <apexClass>MegaTestClassNoModulo</apexClass>
+        <apexClass>BatchCreateAccounts</apexClass>
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
@@ -4434,12 +4417,6 @@
         <layout>LegalEntity-Legal Entity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>LiveChatTranscriptActive-Chat Transcript %28In Progress%29 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>LiveChatTranscriptWaiting-Chat Transcript %28Waiting%29 Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Location-Location Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -4887,6 +4864,10 @@
         <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-DataDetect</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-DataMaskCustomValueLibrary</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -4949,6 +4930,14 @@
     <tabVisibilities>
         <tab>standard-Entitlement</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-EventMonitoring</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-FieldAuditTrail</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-File</tab>
@@ -5111,10 +5100,6 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-OmniSupervisor</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-OperatingHours</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -5155,6 +5140,18 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-PaymentCredit</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PaymentCreditLinePayment</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PaymentCreditTransaction</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-PaymentGateway</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -5173,6 +5170,10 @@
     <tabVisibilities>
         <tab>standard-PersonEmployment</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-PlatformEncryption</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-PriceProtectExecLineItem</tab>
@@ -5304,6 +5305,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ServiceTerritoryRelationship</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-ShieldHome</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
