@@ -13,12 +13,12 @@
     <instancedUrlRedirectHandling>NoRedirect</instancedUrlRedirectHandling>
     <isFirstPartyCookieUseRequired>false</isFirstPartyCookieUseRequired>
     <logRedirections>false</logRedirections>
-    <myDomainName>orgfarm-59ade7b919-dev-ed</myDomainName>
+    <myDomainName>ppoeppohfruit-dd-dev-ed</myDomainName>
     <myDomainSuffix>MySalesforce</myDomainSuffix>
     <redirectForceComSiteUrls>true</redirectForceComSiteUrls>
     <redirectPriorMyDomain>true</redirectPriorMyDomain>
     <use3rdPartyCookieBlockingCompatibleHostnames>true</use3rdPartyCookieBlockingCompatibleHostnames>
-    <useEdge>true</useEdge>
+    <useEdge>false</useEdge>
     <useEnhancedDomainsInSandbox>true</useEnhancedDomainsInSandbox>
     <useStabilizedMyDomainHostnames>true</useStabilizedMyDomainHostnames>
     <useStabilizedSandboxMyDomainHostnames>true</useStabilizedSandboxMyDomainHostnames>

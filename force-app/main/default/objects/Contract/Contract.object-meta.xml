@@ -195,7 +195,6 @@
         <lookupPhoneDialogsAdditionalFields>CONTRACT.CONTRACT_NUMBER</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CONTRACT.NAME</lookupPhoneDialogsAdditionalFields>
         <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>test_field__c</lookupPhoneDialogsAdditionalFields>
         <searchResultsAdditionalFields>CONTRACT.CONTRACT_NUMBER</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CONTRACT.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>SALES.ACCOUNT.NAME</searchResultsAdditionalFields>
