@@ -109,11 +109,39 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>Revvy_DevOps</name>
+        <name>Dataloader_Bulk</name>
         <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
-        <name>DEVHUB_f5hqc0otx7gkoz6atsxp</name>
+        <name>Dataloader_Partner</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Forcecom_IDE</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Forcecom_Migration_Tool</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Salesforce_Mobile_Dashboards</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Salesforce_Touch</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Salesforce_for_Outlook</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Workbench</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>revvi</name>
         <type>ConnectedApp</type>
     </appMenuItems>
 </AppMenu>

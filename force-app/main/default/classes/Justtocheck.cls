@@ -70,7 +70,7 @@ public with sharing class Justtocheck {
         return insertedIds;
     }
     
-    // Bulk delete accounts by nameTESTAAAТУЦ
+    // Bulk delete accounts by name
     public static void deleteAccountsByName(String accountName) {
         List<Account> accountsToDelete = [SELECT Id FROM Account WHERE Name = :accountName];
         delete accountsToDelete;
