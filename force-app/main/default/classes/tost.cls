@@ -1,4 +1,4 @@
-public class toast {
+public class tost {
 
     public static final String LINK = 'https://test.com';
 
