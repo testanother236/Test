@@ -1,6 +1,6 @@
 public class tost {
 
-    public static final String LINK = 'https://test.com';
+    public static final String LINK = '%%NEW%%';
 
     public String getLink() {
         return LINK;
