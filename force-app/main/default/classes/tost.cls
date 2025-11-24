@@ -1,6 +1,6 @@
 public class toast {
 
-    public static final String LINK =  https://test.com
+    public static final String LINK = 'https://test.com';
 
     public String getLink() {
         return LINK;
