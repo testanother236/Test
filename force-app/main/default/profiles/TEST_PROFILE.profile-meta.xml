@@ -11,7 +11,7 @@
         <visible>false</visible>
     </applicationVisibilities>
     <applicationVisibilities>
-        <application>standard__Approvals</application>
+        <application>standard__Approvals$</application>
         <default>false</default>
         <visible>true</visible>
     </applicationVisibilities>
