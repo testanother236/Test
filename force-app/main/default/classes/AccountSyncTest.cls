@@ -8,7 +8,7 @@ public with sharing class AccountSyncTest {
         return 'Hello, ' + name + '!';
     }
 
-    // Method with SOQL to make metadata meaningful
+    // Method witht SOQL to make metadata meaningful
     public static List<Account> getRecentAccounts(Integer limitNumber) {
         if (limitNumber == null || limitNumber <= 0) {
             limitNumber = 5;
