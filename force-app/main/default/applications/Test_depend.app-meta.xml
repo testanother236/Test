@@ -16,6 +16,7 @@
     <label>Test_depend</label>
     <navType>Standard</navType>
     <tabs>standard-WaveHomeLightning</tabs>
+    <tabs>newtest_page</tabs>
     <tabs>standard-ApprovalWorkItem</tabs>
     <tabs>standard-KnowledgeSpace</tabs>
     <tabs>test_depenPAGELIGHT</tabs>
