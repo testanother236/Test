@@ -6,4 +6,7 @@
         <sharedToType>Organization</sharedToType>
     </folderShares>
     <name>Enablement Dashboard Summer &apos;24</name>
+    <test>
+%%new_test%%        <test></test>
+    </test>
 </DashboardFolder>
