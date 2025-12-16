@@ -13,7 +13,5 @@
     <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
     <label>Developer Edition</label>
     <navType>Standard</navType>
-    <tabs>devedapp__Welcome</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>devedapp__Developer_Edition_UtilityBar</utilityBar>
 </CustomApplication>
