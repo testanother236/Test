@@ -11,9 +11,9 @@
     <caseMergeInLightning>false</caseMergeInLightning>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
     <defaultCaseFeedLayoutOn>true</defaultCaseFeedLayoutOn>
-    <defaultCaseOwner>anastasia.akulenko@succraft.com</defaultCaseOwner>
+    <defaultCaseOwner>qaqa44590+300@gmail.com</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>anastasia.akulenko@succraft.com</defaultCaseUser>
+    <defaultCaseUser>qaqa44590+300@gmail.com</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
