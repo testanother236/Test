@@ -1,4 +1,11 @@
+
+/**
+ * Service class to retrieve Contact information for various object types in a Customer 360 context.
+ */
 public class SDO_Service_Customer360_MultipleObjects {
+    /**
+     * Retrieves a Contact record based on the provided record ID from different source objects. New test
+     */
     @AuraEnabled
     public static Contact getContact (Id recid) {
         String sObjName = recid.getSObjectType(). getDescribe().getName();
