@@ -4,9 +4,9 @@
 public class tost {
 
     /**
-     * A constant string representing a static link.
+     * A constant string representing a static link. Testonemore
      */
-    public static final String LINK = 'AAAAAAAAAAAAA';
+    public static final String LINK = 'AAAAAAAAAAAAAtest';
 
     /**
      * Retrieves the static link defined by the LINK constant.
