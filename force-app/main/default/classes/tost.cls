@@ -7,6 +7,6 @@ public class tost {
     }
 
     public void unusedMethod() {
-        Integer x = 45654643; // unused variable
+        Integer x = 6765; // unused variable3
     }
 }
