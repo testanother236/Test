@@ -23,7 +23,7 @@
                 <field>Name</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
+        <layoutColumns></layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <layoutSections>
@@ -49,14 +49,13 @@
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
-        <layoutColumns/>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns></layoutColumns>
+        <layoutColumns></layoutColumns>
+        <layoutColumns></layoutColumns>
         <style>CustomLinks</style>
     </layoutSections>
     <miniLayout>
         <fields>Flosum__Promotion_path__c</fields>
-        <fields>Flosum__From__c</fields>
         <fields>Flosum__To__c</fields>
     </miniLayout>
     <showEmailCheckbox>false</showEmailCheckbox>
