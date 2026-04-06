@@ -42,11 +42,9 @@
         <customLabel>false</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
-        <layoutColumns>
-            <layoutItems>
-                <field>MyCustomLink__c</field>
-            </layoutItems>
-        </layoutColumns>
+        <layoutColumns></layoutColumns>
+        <layoutColumns></layoutColumns>
+        <layoutColumns></layoutColumns>
         <style>CustomLinks</style>
     </layoutSections>
     <showEmailCheckbox>false</showEmailCheckbox>
